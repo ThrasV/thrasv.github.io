@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Second Post
-tag: diary
+tag: "diary"
 ---
 
 This is a demo of all styled elements in Jekyll Now.

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post {{ default.post.tag }}">
+<article class="post {{ default.tag }}">
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
