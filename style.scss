@@ -51,8 +51,10 @@ html {
 
 body {
   background: #fff;
-  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  font-size: 18px/1.4;
+  font-family: 'IBM Plex Mono', monospace;
   color: #333;
+  height: 100%
 }
 
 .container {
@@ -63,7 +65,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -226,7 +227,6 @@ img {
   margin: 0;
   color: #333;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -247,7 +247,6 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -327,7 +326,7 @@ footer {
 }
 
 code {
-  font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .highlight .c {
