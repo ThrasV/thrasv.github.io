@@ -449,7 +449,7 @@ body:before {
     content: "";
     display: block;
     position: absolute;
-    height: 67vh;
+    height: 67%;
     width: 100%;
     background-color: var(--bg-color);
     z-index: -1000;
@@ -472,7 +472,9 @@ body:before {
     }
 
     body:before {
-        height: 60vh;
+        height: 0;
+        min-height:50%;
+        padding: 37%
     }
 
     .footer {
