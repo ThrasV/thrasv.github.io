@@ -4,6 +4,8 @@ layout: default
 
 <article class="portfolio-entry {{ page.tag }}">
   <h1>{{ page.title }}</h1>
+  
+  <div class="tag">{{ page.tag }}</div>
 
   <div class="entry">
     {{ content }}
@@ -11,8 +13,5 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  <div class="tag">
-    {{ page.tag }}
   </div>
 </article>
