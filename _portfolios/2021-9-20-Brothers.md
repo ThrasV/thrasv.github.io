@@ -3,7 +3,7 @@ layout: portfolio
 title: Brothers Gym
 description: Branding for local fitness centre based in Nicosia
 tag: branding
-color: red
+color: 008192
 ---
 {: .cover}
   ![bro]({{ site.baseurl }}/resources/portfolios/brothers/cover_brothers.png)
