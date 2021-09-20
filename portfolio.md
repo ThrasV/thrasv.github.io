@@ -14,6 +14,6 @@ permalink: /portfolio/
         {{ portfolio.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ portfolio.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ portfolios.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
