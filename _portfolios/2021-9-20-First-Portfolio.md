@@ -1,17 +1,13 @@
 ---
 layout: portfolio
-title: My first portfolio
-tag: blog
+title: Brothers Gym
+tag: branding
 ---
 <img src="{{ site.baseurl }}/resources/portfolios/cover_brothers.png" class="cover" alt=""/>
-<img src="{{ site.baseurl }}/images/cover_brothers.png" class="cover" alt=""/>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fe7d2331782211.56cf407fc2327.png" class="cover" alt=""/>
 <img src="{{ site.url }}{{ site.baseurl }}/images/cover_brothers.png" class="cover" alt=""/>
 
-This is a demo of all styled elements in Jekyll Now.
-
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
-
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
+Brothers is a local fitness centre based in Nicosia, Cyprus. The clients are the two trainers that run the fitness centre, Demetris and Marios. The two brothers are both personal trainers and they are always there for what their customers need. The identity needed to reflect strength, weight and muscle in association with the feeling of assurance and trust towards the two brothers. The printing cost needed to be low, so we used only one colour print on diffrent colours of paper.
 
 ## Header 2 (H1 is reserved for post titles)##
 
