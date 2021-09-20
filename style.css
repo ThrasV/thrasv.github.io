@@ -359,6 +359,19 @@ header.masthead * {
 }
 
 hr {
-    border:0;
-    border-bottom:2px solid var(--bg-color)
+    border: 0;
+    border-bottom: 2px solid var(--bg-color)
+}
+
+#main > .portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px 20px;
+    /* row-gap column gap */
+}
+
+#main > .portfolio > article {
+        min-width:45%;
+        flex:1
 }
