@@ -322,7 +322,7 @@ p.gallery img:not(:last-of-type) {
 }
 
 article.portfolio .tag {
-        position: relative;
+    position: relative;
     bottom: 65px;
     margin-left: auto;
 }
@@ -342,7 +342,7 @@ article.portfolio-entry .tag {
 
 #main {
     position: relative;
-    top: -300px
+    top: -300px;
 }
 
 header.masthead * {
@@ -359,6 +359,7 @@ hr {
 }
 
 #main > .portfolio {
+    margin-top: -40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -380,4 +381,8 @@ hr {
 #main > .portfolio > article:first-of-type p.cover {
     margin-left: -30px;
     margin-right: -30px;
+}
+
+#main > .portfolio > h1 {
+    margin-bottom:0
 }

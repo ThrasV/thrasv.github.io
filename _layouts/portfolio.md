@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="portfolio-entry {{ page.tag }}">
-  <h1>Portfolio</h1>
+  <h1>{{ page.title }}</h1>
   
   <div class="tag">{{ page.tag }}</div>
 
