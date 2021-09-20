@@ -12,4 +12,7 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  <div class="tag">
+    {{ page.tag }}
+  </div>
 </article>
