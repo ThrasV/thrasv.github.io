@@ -5,6 +5,7 @@ tag: blog
 ---
 <img src="{{ site.baseurl }}/resources/portfolios/cover_brothers.png" class="cover" alt=""/>
 <img src="{{ site.baseurl }}/images/cover_brothers.png" class="cover" alt=""/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/cover_brothers.png" class="cover" alt=""/>
 
 This is a demo of all styled elements in Jekyll Now.
 
