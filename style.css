@@ -267,11 +267,8 @@ nav a {
 }
 
 .wrapper-footer {
-    /* position: relative; */
-    margin-top: 50px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    margin-top: 90px;
+    border-top: 2px solid #f9f9f9;
     height: 90px;
 }
 
@@ -469,4 +466,4 @@ body:before {
         max-width: 100%
     }
 }
-/*  */
+/* thv */
