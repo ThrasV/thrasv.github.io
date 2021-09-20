@@ -327,9 +327,10 @@ p.gallery img:not(:last-of-type) {
 }
 
 article.portfolio .tag {
+    display:inline;
     position: relative;
-    bottom: 65px;
-    left: 6px;
+/*     bottom: 65px; */
+/*     left: 6px; */
 }
 
 article.portfolio-entry .tag {
@@ -372,6 +373,12 @@ hr {
 }
 
 #main > .portfolio > article {
-        min-width:45%;
-        flex:1
+    min-width: 45%;
+    flex: 1;
+    border-radius:6px;
+    overflow:hidden;
+    background-color:var(--bg-color)
+}
+#main > .portfolio > article .cover {
+    margin:0
 }
