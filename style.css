@@ -267,14 +267,20 @@ nav a {
 }
 
 .wrapper-footer {
+    font-family: IBM Plex Mono, monospace;
+    font-size: .85em;
     margin-top: 90px;
     border-top: 2px solid #f9f9f9;
     height: 90px;
 }
 
 footer {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
+}
+
+footer a {
+    margin-left: 8px
 }
 
 p.gallery {
@@ -465,5 +471,10 @@ body:before {
         min-width: 100%;
         max-width: 100%
     }
+
+    body:before {
+        height: 50vh;
+    }
 }
+
 /* thv */
