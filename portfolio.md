@@ -2,7 +2,7 @@
 layout: default
 title: portfolio
 permalink: /portfolio/
-bg-color: 333
+bg-color: 111
 fg-color: fff
 ---
 

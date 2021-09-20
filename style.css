@@ -2,7 +2,7 @@
 /* BASE RULES */
 /**************/
 :root {
-    --bg-color: #f5f5f5;
+    --bg-color: #d8d8d8;
     --fg-color: #333
 }
 
@@ -348,7 +348,7 @@ header.masthead * {
     color: var(--fg-color)
 }
 
-.portfolio-entry h1 {
+h1 {
     color: var(--fg-color)
 }
 
@@ -377,6 +377,10 @@ hr {
     min-width: 100%;
 }
 
+#main > .posts > article:first-of-type {
+    margin-bottom: 5em
+}
+
 #main > .portfolio > article:first-of-type p.cover {
     margin-left: -30px;
     margin-right: -30px;
@@ -388,6 +392,37 @@ hr {
 
 #main > .portfolio > article a {
     color: var(--bg-color)
+}
+
+#main > .posts > article:first-of-type:before, #main > .portfolio > article:first-of-type:before {
+    content: "NEW";
+    display: flex;
+    margin-left: auto;
+    margin-bottom: -40px;
+    margin-top: -20px;
+    margin-right: 4px;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(-6deg)
+}
+
+#main > .posts > article:first-of-type:before {
+    margin-left: auto;
+    margin-bottom: -220px;
+    margin-top: 160px;
+    background-color: var(--fg-color);
+    color: var(--bg-color);
+}
+
+#main > .posts > a > h1 , #main > .portfolio > h1 {
+    margin-bottom: -6px;
+    margin-top: 11px
 }
 
 #main > .portfolio > article:first-of-type:before {
@@ -408,9 +443,14 @@ hr {
     transform: rotate(-6deg)
 }
 
-#main > .posts > a > h1 , #main > .portfolio > h1 {
-    margin-bottom: -6px;
-    margin-top: 11px
+body:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 67vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    z-index: -1000;
 }
 
 @media screen and (max-width: 640px) {
@@ -425,16 +465,7 @@ hr {
     }
 
     #main > .posts > article, #main > .portfolio > article {
-        min-width: 100% max-width: 100%
+        min-width: 100%;
+        max-width: 100%
     }
-}
-
-body:before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 67vh;
-    width: 100%;
-    background-color: var(--bg-color);
-    z-index: -1000;
 }
