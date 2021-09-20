@@ -318,7 +318,7 @@ p.gallery img:not(:last-of-type) {
 .tag {
     padding: 2px 4px;
     border-radius: 2px;
-    background-color: var(--color);
+    background-color: var(--bg-color);
     color: white;
     width: fit-content;
     text-transform: uppercase;
@@ -333,7 +333,7 @@ article.portfolio .tag {
 }
 
 .wrapper-masthead {
-    background-color: var(--color);
+    background-color: var(--bg-color);
     padding-bottom: 300px
 }
 
