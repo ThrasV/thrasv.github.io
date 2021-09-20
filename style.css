@@ -475,6 +475,15 @@ body:before {
     body:before {
         height: 50vh;
     }
+
+    .footer {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }.footer a {
+        margin:0;
+        margin-top:8px
+    }
 }
 
 /* thv */
