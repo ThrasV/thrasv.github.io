@@ -5,6 +5,8 @@ permalink: /portfolio/
 ---
 
 <div class="portfolio">
+  <h1>{{ page.title }}</h1>
+
   {% for portfolio in site.portfolios %}
     <article class="portfolio {{ portfolio.tag }}" style="{% if portfolio.bg-color %}--bg-color: #{{ portfolio.bg-color }}; {% endif %}{% if portfolio.fg-color %}--fg-color: #{{ portfolio.fg-color }}; {% endif %}">
 

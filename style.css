@@ -379,6 +379,10 @@ hr {
     overflow:hidden;
     background-color:var(--bg-color)
 }
+#main > .portfolio > article:first-of-type {
+    min-width: 100%;
+}
 #main > .portfolio > article .cover {
     margin:0
 }
+#6d41d6
