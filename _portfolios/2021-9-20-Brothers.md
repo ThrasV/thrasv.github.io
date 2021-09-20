@@ -11,19 +11,12 @@ customers need. The identity needed to reflect strength, weight and muscle in as
 and trust towards the two brothers. The printing cost needed to be low, so we used only one colour print on diffrent
 colours of paper.
 
-![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers1.png){: .img}
-![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers2.png){: .img}
+>![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers1.png){: .img}
+ ![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers2.png){: .img}
 
 ----
 
-<div class="gallery">
-  <img src="{{ site.baseurl }}/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
-  <img src="{{ site.baseurl }}/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
-<div/>
-
-----
-
-## Header 2 (H1 is reserved for post titles)##
+## Header 2 (H1 is reserved for post titles)
 
 ### Header 3
 
