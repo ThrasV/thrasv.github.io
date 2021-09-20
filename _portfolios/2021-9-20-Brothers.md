@@ -11,10 +11,10 @@ customers need. The identity needed to reflect strength, weight and muscle in as
 and trust towards the two brothers. The printing cost needed to be low, so we used only one colour print on diffrent
 colours of paper.
 
-<div class="gallery">
+<p class="gallery">
 ![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers1.png){: .img}
 ![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers2.png){: .img}
-</div>
+</p>
 
 ----
 
