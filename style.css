@@ -326,7 +326,7 @@ p.gallery img:not(:last-of-type) {
 
 article.portfolio .tag {
     position: relative;
-    bottom: 67px;
+    bottom: 65px;
     left:6px;
 }
 
