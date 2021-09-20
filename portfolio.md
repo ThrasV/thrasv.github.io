@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 <div class="portfolio">
   {% for portfolio in site.portfolios %}
-    <article class="portfolio {{ portfolio.tag }}">
+    <article class="portfolio {{ portfolio.tag }}" style=" --color: #{{ portfolio.color }}">
 
       <h1><a href="{{ site.baseurl }}{{ portfolio.url }}">{{ portfolio.title }}</a></h1>
 

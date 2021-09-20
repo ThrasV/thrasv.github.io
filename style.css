@@ -316,8 +316,8 @@ p.gallery img:not(:last-of-type) {
 .tag {
     padding: 2px 4px;
     border-radius: 2px;
-    background-color: #e1f2ff;
-    color: #4b7597;
+    background-color: var(--color);
+    color: white;
     width: fit-content;
     text-transform:uppercase;
     letter-spacing:1px;
