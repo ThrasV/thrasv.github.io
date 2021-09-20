@@ -2,6 +2,8 @@
 layout: default
 title: blog
 permalink: /blog/
+bg-color: f9f9f9
+fg-color: 111
 ---
 
 <div class="posts">
