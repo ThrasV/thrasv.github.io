@@ -323,8 +323,12 @@ p.gallery img:not(:last-of-type) {
 
 article.portfolio .tag {
     position: relative;
-    bottom: 46px;
-    margin-left: auto;
+    bottom: 102px;
+    left: 4px;
+}
+
+article.portfolio:first-of-type .tag {
+    bottom: 124px;
 }
 
 article.portfolio-entry .tag {
@@ -343,6 +347,7 @@ article.portfolio-entry .tag {
 #main {
     position: relative;
     top: -300px;
+    margin-bottom: -300px
 }
 
 header.masthead * {
@@ -358,22 +363,22 @@ hr {
     border-bottom: 2px solid var(--bg-color)
 }
 
-#main > .portfolio {
+#main > .posts, #main > .portfolio {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 30px 20px;
+    gap: 20px 30px;
     /* row-gap column gap */
 }
 
-#main > .portfolio > article {
+#main > .posts > article, #main > .portfolio > article {
     min-width: 40%;
     flex: 1;
     padding-bottom: 16px;
     border-bottom: 2px solid var(--bg-color);
 }
 
-#main > .portfolio > article:first-of-type {
+#main > .posts > article:first-of-type, #main > .portfolio > article:first-of-type {
     min-width: 100%;
 }
 
@@ -386,12 +391,29 @@ hr {
     margin-bottom: 0
 }
 
-#main > .portfolio > article a
-{
+#main > .portfolio > article a {
     color: var(--bg-color)
 }
 
-#main > .portfolio > h1 {
+#main > .portfolio > article:first-of-type:before {
+    content: "NEW";
+    display: flex;
+    margin-left: auto;
+    margin-bottom: -40px;
+    margin-top: -20px;
+    margin-right: 4px;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(-6deg)
+}
+
+#main > .posts > a > h1 , #main > .portfolio > h1 {
     margin-bottom: -16px;
     margin-top: 11px
 }
