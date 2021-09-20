@@ -239,8 +239,8 @@ nav a {
 }
 
 .posts > .post {
-/*     padding-bottom: 2em; */
-/*     border-bottom: 1px solid #eee; */
+    /*     padding-bottom: 2em; */
+    /*     border-bottom: 1px solid #eee; */
 }
 
 .posts > .post:last-child {
@@ -335,14 +335,13 @@ article.portfolio-entry .tag {
 }
 
 .wrapper-masthead {
-    background-color: var(--bg-color);
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
 }
 
 #main {
     position: relative;
-    top: -300px;
-    margin-bottom: -300px
+    /* top: -300px; */
+    /* margin-bottom: -300px */
 }
 
 header.masthead * {
@@ -426,7 +425,16 @@ hr {
     }
 
     #main > .posts > article, #main > .portfolio > article {
-        min-width: 100%
-        max-width: 100%
+        min-width: 100% max-width: 100%
     }
+}
+
+body:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 67vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    z-index: -1000;
 }

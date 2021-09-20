@@ -2,6 +2,8 @@
 layout: default
 title: portfolio
 permalink: /portfolio/
+bg-color: 333
+fg-color: fff
 ---
 
 <div class="portfolio">
