@@ -2,8 +2,8 @@
 /* BASE RULES */
 /**************/
 :root {
-    --bg-color: #d8d8d8;
-    --fg-color: #333
+    --bg-color: #fff;
+    --fg-color: #111
 }
 
 html {
