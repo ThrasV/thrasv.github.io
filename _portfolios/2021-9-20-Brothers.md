@@ -3,7 +3,7 @@ layout: portfolio
 title: Brothers Gym
 tag: branding
 ---
-![bro3]({{ site.baseurl }}/resources/portfolios/cover_brothers.png)
+![bro]({{ site.baseurl }}/resources/portfolios/brothers/cover_brothers.png){: .cover}
 
 
 Brothers is a local fitness centre based in Nicosia, Cyprus. The clients are the two trainers that run the fitness
@@ -12,31 +12,13 @@ customers need. The identity needed to reflect strength, weight and muscle in as
 and trust towards the two brothers. The printing cost needed to be low, so we used only one colour print on diffrent
 colours of paper.
 
+![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers1.png){: .img}
+![bro2]({{ site.baseurl }}/resources/portfolios/brothers/img_brothers2.png){: .img}
+
+----
+
 ## Header 2 (H1 is reserved for post titles)##
 
 ### Header 3
 
 #### Header 4
-
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link
-<http://github.com/barryclark/jekyll-now/> An image, located within /images ![an image alt
-  text]({{ site.baseurl }}/images/jekyll-logo.png "an image title" ) * A bulletted list - alternative syntax 1 +
-  alternative syntax 2 - an indented list item 1. An 2. ordered 3. list Inline markup styles: - _italics_ - **bold** -
-  `code()`> Blockquote
-  >> Nested Blockquote
-
-  Syntax highlighting can be used with triple backticks, like so:
-
-  ```javascript
-  /* Some pointless Javascript */
-  var rawr = ["r", "a", "w", "r"];
-  ```
-
-  Use two trailing spaces
-  on the right
-  to create linebreak tags
-
-  Finally, horizontal lines
-
-  ----
-  ****
