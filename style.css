@@ -114,9 +114,7 @@ strong, b {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-}
+img {max-width: 100%;}
 
 .gmnoprint img {
     max-width: none;
@@ -285,4 +283,20 @@ nav a {
 footer {
     padding: 20px 0;
     text-align: center;
+}
+
+p.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+p.gallery img {
+    margin-bottom: 4px;
+    max-width: 100%;
+    overflow:hidden
+}
+
+p.gallery img:not(:last-of-type) {
+    margin-right: 4px
 }
