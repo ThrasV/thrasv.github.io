@@ -89,6 +89,13 @@ exclude:
 collections:
   portfolios:
     output: true
-  resources:
-    output: true
+  # resources:
+    # output: true
+# 
+defaults:
+  - scope:
+      path: "images"
+      path: "resources/portfolio"
+    values:
+      image: true
 # 
