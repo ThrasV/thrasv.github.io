@@ -452,8 +452,8 @@ body:before {
     width: 100%;
     background-color: var(--bg-color);
     z-index: -1000;
-    height: 0;
-    min-height: 33%;
+    height: 67%;
+    /* min-height: 67%; */
 }
 
 @media screen and (max-width: 640px) {
@@ -473,10 +473,9 @@ body:before {
     }
 
     body:before {
-        height: 0;
-        min-height: 25%;
-/*         max-height: 40%; */
-/*         padding-top: 40% */
+        height: 50%;
+        /*         min-height: 33%; */
+        /*         padding-top: 40% */
     }
 
     .footer {
