@@ -44,7 +44,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          Thrasos Varnava 2021 | {% include svg-icons.html %}
         </footer>
       </div>
     </div>
