@@ -12,7 +12,7 @@ permalink: /portfolio/
 
       <h2><a href="{{ site.baseurl }}{{ portfolio.url }}">{{ portfolio.title }}</a></h2>
 
-      <a href="{{ site.baseurl }}{{ portfolio.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ portfolio.url }}" class="read-more">{{ portfolio.description }}</a>
       
       <div class="tag">{{ portfolio.tag }}</div>
     </article>
