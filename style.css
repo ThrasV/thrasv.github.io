@@ -312,11 +312,11 @@ p.gallery img:not(:last-of-type) {
     margin-right: -30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border-bottom: 8px solid var(--bg-color);
+    border-bottom: 2px solid var(--bg-color);
 }
 
 .tag {
-    padding: 2px 4px;
+    padding: 2px 6px;
     border-radius: 2px;
     background-color: var(--bg-color);
     color: white;
@@ -330,6 +330,14 @@ article.portfolio .tag {
     position: relative;
     bottom: 65px;
     left: 6px;
+}
+
+article.portfolio-entry .tag {
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    background-color: var(--fg-color);
+    color: var(--bg-color);
 }
 
 .wrapper-masthead {
@@ -346,6 +354,11 @@ header.masthead * {
     color: var(--fg-color)
 }
 
-article h1 {
+.portfolio-entry h1 {
     color: var(--fg-color)
+}
+
+hr {
+    border:0;
+    border-bottom:2px solid var(--bg-color)
 }
