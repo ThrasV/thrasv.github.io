@@ -239,8 +239,8 @@ nav a {
 }
 
 .posts > .post {
-    padding-bottom: 2em;
-    border-bottom: 1px solid #eee;
+/*     padding-bottom: 2em; */
+/*     border-bottom: 1px solid #eee; */
 }
 
 .posts > .post:last-child {
@@ -367,7 +367,8 @@ hr {
 }
 
 #main > .posts > article, #main > .portfolio > article {
-    min-width: 40%;
+    min-width: calc(50% - 15px);
+    max-width: calc(50% - 15px);
     flex: 1;
     padding-bottom: 16px;
     border-bottom: 2px solid var(--bg-color);
@@ -426,5 +427,6 @@ hr {
 
     #main > .posts > article, #main > .portfolio > article {
         min-width: 100%
+        max-width: 100%
     }
 }
