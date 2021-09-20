@@ -3,7 +3,7 @@ layout: portfolio
 title: My first portfolio
 tag: blog
 ---
-![alt text: cover]({{ site.baseurl }}/resources/portfolios/cover_brothers.png "Brothers Cover")
+!({{ site.baseurl }}/resources/portfolios/cover_brothers.png "Brothers Cover")
 
 This is a demo of all styled elements in Jekyll Now.
 
