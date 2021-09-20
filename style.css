@@ -3,12 +3,7 @@
 /**************/
 :root {
     --bg-color: #f5f5f5;
-    --c-f: #555;
-    --c-f-e: black;
-    --c-f-d: #ddd;
-    --c-bg: white;
-    --c-bg2: #f1f1f1;
-    --c-e: #3058ff --c-e2: #2043d4
+    --fg-color: #333
 }
 
 html {
@@ -327,10 +322,9 @@ p.gallery img:not(:last-of-type) {
 }
 
 article.portfolio .tag {
-    display:inline;
-    position: relative;
-/*     bottom: 65px; */
-/*     left: 6px; */
+        position: relative;
+    bottom: 65px;
+    margin-left: auto;
 }
 
 article.portfolio-entry .tag {
@@ -343,7 +337,7 @@ article.portfolio-entry .tag {
 
 .wrapper-masthead {
     background-color: var(--bg-color);
-    padding-bottom: 300px
+    padding-bottom: 300px;
 }
 
 #main {
@@ -368,21 +362,22 @@ hr {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 10px 20px;
+    gap: 30px 20px;
     /* row-gap column gap */
 }
 
 #main > .portfolio > article {
-    min-width: 45%;
+    min-width: 40%;
     flex: 1;
-    border-radius:6px;
-    overflow:hidden;
-    background-color:var(--bg-color)
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--bg-color);
 }
+
 #main > .portfolio > article:first-of-type {
     min-width: 100%;
 }
-#main > .portfolio > article .cover {
-    margin:0
+
+#main > .portfolio > article:first-of-type p.cover {
+    margin-left: -30px;
+    margin-right: -30px;
 }
-#6d41d6
