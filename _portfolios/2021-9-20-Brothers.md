@@ -7,7 +7,6 @@ tag: branding
 ![bro](https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fe7d2331782211.56cf407fc2327.png)
 ![bro2]({{ site.baseurl }}/images/cover_brothers.png)
 ![bro3]({{ site.baseurl }}/resources/portfolios/cover_brothers.png)
-![bro4](/resources/portfolios/cover_brothers.png)
 
 
 Brothers is a local fitness centre based in Nicosia, Cyprus. The clients are the two trainers that run the fitness
