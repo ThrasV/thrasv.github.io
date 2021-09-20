@@ -32,7 +32,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 800px;
-    padding: 0 20px;
+    padding: 0 30px;
     width: 100%;
 }
 
@@ -300,3 +300,7 @@ p.gallery img {
 p.gallery img:not(:last-of-type) {
     margin-right: 4px
 }
+p.cover {
+    margin-left:-30px;
+    margin-right:-30px
+
