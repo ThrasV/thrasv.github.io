@@ -125,6 +125,7 @@ img {
 .date {
     font-style: italic;
     color: #666;
+    margin-bottom: 8px;
 }
 
 ::-moz-selection {
@@ -310,11 +311,22 @@ p.gallery img:not(:last-of-type) {
     margin-top: 30px ;
     margin-bottom: 30px
 }
+
 .tag {
-    display:inline;
-    margin-left:auto;
-    padding:4px;
-    border-radius:3px;
-    background-color:#e1f2ff;
-    color:#4b7597
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #e1f2ff;
+    color: #4b7597;
+    width: fit-content;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:.7em;
 }
+
+
+article.portfolio .tag {
+    position: relative;
+    bottom: 65px;
+    left:6px;
+}
+
