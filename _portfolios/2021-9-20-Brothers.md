@@ -9,8 +9,6 @@ fg-color: fff
 {: .cover}
   ![bro]({{ site.baseurl }}/resources/portfolios/brothers/cover_brothers.png)
 
-----
-
 Brothers is a local fitness centre based in Nicosia, Cyprus. The clients are the two trainers that run the fitness
 centre, Demetris and Marios. The two brothers are both personal trainers and they are always there for what their
 customers need. The identity needed to reflect strength, weight and muscle in association with the feeling of assurance
