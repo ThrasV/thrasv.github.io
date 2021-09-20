@@ -2,7 +2,7 @@
 /* BASE RULES */
 /**************/
 :root {
-    /*colors*/
+    --color:#f7f7f7;
     --c-f: #555;
     --c-f-e: black;
     --c-f-d: #ddd;
@@ -333,7 +333,6 @@ article.portfolio .tag {
 }
 
 .wrapper-masthead {
-    background-color: red;
     background-color: var(--color);
     padding-bottom: 300px
 }

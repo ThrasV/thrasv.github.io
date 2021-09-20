@@ -17,8 +17,8 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
-  
-  <body {% if page.bg-color %}style=" --color: #{{ page.bg-color }}" – {% endif %}>
+
+  <body style={% if page.bg-color %}" --color: #{{ page.bg-color }};" – {% endif %}{% if page.fg-color %}" --color: #{{ page.fg-color }};" – {% endif %}>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
