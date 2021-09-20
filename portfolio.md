@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <div class="portfolio">
-  {% for portfolio in site.portfolios %}
+  {% for post in site.portfolios %}
     <article class="portfolio {{ portfolio.tag }}">
 
       <h1><a href="{{ site.baseurl }}{{ portfolio.url }}">{{ portfolio.title }}</a></h1>
@@ -14,6 +14,6 @@ permalink: /portfolio/
         {{ portfolio.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ portfolios.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ portfolio.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
