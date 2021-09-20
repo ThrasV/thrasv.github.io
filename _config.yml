@@ -92,9 +92,3 @@ collections:
   # resources:
     # output: true
 # 
-defaults:
-  - scope:
-      path: "images"
-    values:
-      image: true
-# 

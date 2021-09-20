@@ -114,7 +114,9 @@ strong, b {
     font-weight: bold;
 }
 
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+}
 
 .gmnoprint img {
     max-width: none;
@@ -294,13 +296,15 @@ p.gallery {
 p.gallery img {
     margin-bottom: 4px;
     max-width: 100%;
-    overflow:hidden
+    overflow: hidden
 }
 
 p.gallery img:not(:last-of-type) {
     margin-right: 4px
 }
-p.cover {
-    margin-left:-30px;
-    margin-right:-30px
 
+p.cover {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 30px ;
+    margin-bottom: 30px
