@@ -323,7 +323,7 @@ p.gallery img:not(:last-of-type) {
 
 article.portfolio .tag {
     position: relative;
-    bottom: 65px;
+    bottom: 46px;
     margin-left: auto;
 }
 
@@ -382,7 +382,16 @@ hr {
     margin-right: -30px;
 }
 
+#main > .portfolio > article h3 {
+    margin-bottom: 0
+}
+
+#main > .portfolio > article a
+{
+    color: var(--bg-color)
+}
+
 #main > .portfolio > h1 {
-    margin-bottom:-16px;
-    margin-top:11px
+    margin-bottom: -16px;
+    margin-top: 11px
 }
