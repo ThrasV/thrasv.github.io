@@ -308,4 +308,8 @@ p.cover {
     margin-right: -30px;
     margin-top: 30px ;
     margin-bottom: 30px
-}  
+}
+.tag {
+    padding:4px;
+    border-radius:3px
+}
