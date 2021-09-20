@@ -88,4 +88,6 @@ exclude:
 collections:
   portfolios:
     output: true
+  resources:
+    output: true
 # 
