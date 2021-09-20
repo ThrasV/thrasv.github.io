@@ -44,7 +44,9 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          Thrasos Varnava 2021 | {% include svg-icons.html %}
+          Thrasos Varnava 2021
+          <a href="https://www.instagram.com/thrasv/">Instagram</a>
+          <a href="https://www.behance.net/Thrasos">Bēhance</a>            
         </footer>
       </div>
     </div>
