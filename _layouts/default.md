@@ -16,8 +16,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-    <meta name="theme-color" content="{% if page.bg-color %}--bg-color: #{{ page.bg-color }}; {% endif %}{% if page.fg-color %}--fg-color: #{{ page.fg-color }}; {% endif %}">
-    <meta name="apple-mobile-web-app-status-bar-style" content="{% if page.bg-color %}--bg-color: #{{ page.bg-color }}; {% endif %}{% if page.fg-color %}--fg-color: #{{ page.fg-color }}; {% endif %}">
+    <meta name="theme-color" content="{% if page.bg-color %}#{{ page.bg-color }}{% endif %}{% if page.fg-color %}#{{ page.fg-color }} {% endif %}">
+    <meta name="apple-mobile-web-app-status-bar-style" content="{% if page.bg-color %}#{{ page.bg-color }}{% endif %}{% if page.fg-color %}#{{ page.fg-color }} {% endif %}">
 
   </head>
 
