@@ -23,6 +23,7 @@ body {
     line-height: 1.333;
     color: #333;
     height: 100vh;
+    max-height: 100%;
 }
 
 .container {
@@ -263,8 +264,8 @@ nav a {
 }
 
 .post .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    /* text-transform: uppercase; */
+    /* font-size: 15px; */
 }
 
 .wrapper-footer {
@@ -301,6 +302,7 @@ p.gallery img:not(:last-of-type) {
     margin-right: 4px
 }
 
+.post-entry p.cover ,
 .portfolio-entry p.cover {
     margin-left: -30px;
     margin-right: -30px;
@@ -319,17 +321,17 @@ p.gallery img:not(:last-of-type) {
     font-size: .7em;
 }
 
-article.portfolio .tag {
+article.post .tag , article.portfolio .tag {
     position: relative;
-    bottom: 119px;
+    bottom: 104px;
     left: 4px;
 }
 
-article.portfolio:first-of-type .tag {
-    bottom: 140px;
+article.post:first-of-type .tag , article.portfolio:first-of-type .tag {
+    bottom: 130px;
 }
 
-article.portfolio-entry .tag {
+article.post-entry .tag , article.portfolio-entry .tag {
     position: absolute;
     top: 24px;
     right: 30px;
@@ -339,7 +341,7 @@ article.portfolio-entry .tag {
 
 #main {
     position: relative;
-    height:100%
+    min-height: calc(100% - 23em);
 }
 
 header.masthead * {
@@ -375,22 +377,18 @@ hr {
     min-width: 100%;
 }
 
-#main > .posts > article, #main > .portfolio > article {
-    /* min-width: 100%; */
-    /* max-width: 100% */
-}
-
 #main > .posts > article:first-of-type p.cover, #main > .portfolio > article:first-of-type p.cover {
     margin-left: -30px;
     margin-right: -30px;
 }
 
-#main > .posts > article h3, #main > .portfolio > article a {
-    margin-bottom: 0
+#main > .posts > article h3, 
+#main > .portfolio > article h3 {
+        margin-bottom: 0
 }
-
-#main > .posts > article h3, #main > .portfolio > article a {
-    color: var(--bg-color)
+#main > .posts > article a, 
+#main > .portfolio > article a {
+    color: var(--bg-color);
 }
 
 #main > .posts > article:first-of-type:before, #main > .portfolio > article:first-of-type:before {
@@ -411,12 +409,11 @@ hr {
     transform: rotate(-6deg)
 }
 
-/*
-#main > .posts > a > h1 , #main > .portfolio > h1 {
-    margin-bottom: -6px;
-    margin-top: 11px
+#main > .posts > h1 , #main > .portfolio > h1 {
+    /* margin-bottom: -6px; */
+    margin-top: 0em;
 }
-*/
+
 #main > .posts > article:first-of-type:before , #main > .portfolio > article:first-of-type:before {
     content: "NEW";
     display: flex;
@@ -478,8 +475,19 @@ body:before {
         margin-top: 8px
     }
 
+    article.post-entry .tag {
     article.portfolio-entry .tag {
         top: 18px;
+    }
+
+    article.post .tag {
+    article.portfolio .tag {
+        bottom: 112px;
+    }
+
+    #main {
+        position: relative;
+        min-height: calc(100% - 25em);
     }
 }
 
