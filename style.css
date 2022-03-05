@@ -22,6 +22,7 @@ body {
     font-size: 16px;
     line-height: 1.333;
     color: #333;
+    height: 100vh;
 }
 
 .container {
@@ -320,12 +321,12 @@ p.gallery img:not(:last-of-type) {
 
 article.portfolio .tag {
     position: relative;
-    bottom: 102px;
+    bottom: 119px;
     left: 4px;
 }
 
 article.portfolio:first-of-type .tag {
-    bottom: 124px;
+    bottom: 140px;
 }
 
 article.portfolio-entry .tag {
@@ -336,14 +337,9 @@ article.portfolio-entry .tag {
     color: var(--bg-color);
 }
 
-.wrapper-masthead {
-    /* padding-bottom: 300px; */
-}
-
 #main {
     position: relative;
-    /* top: -300px; */
-    /* margin-bottom: -300px */
+    height:100%
 }
 
 header.masthead * {
@@ -379,20 +375,21 @@ hr {
     min-width: 100%;
 }
 
-#main > .posts > article:first-of-type {
-    margin-bottom: 5em
+#main > .posts > article, #main > .portfolio > article {
+    /* min-width: 100%; */
+    /* max-width: 100% */
 }
 
-#main > .portfolio > article:first-of-type p.cover {
+#main > .posts > article:first-of-type p.cover, #main > .portfolio > article:first-of-type p.cover {
     margin-left: -30px;
     margin-right: -30px;
 }
 
-#main > .portfolio > article h3 {
+#main > .posts > article h3, #main > .portfolio > article a {
     margin-bottom: 0
 }
 
-#main > .portfolio > article a {
+#main > .posts > article h3, #main > .portfolio > article a {
     color: var(--bg-color)
 }
 
@@ -414,20 +411,13 @@ hr {
     transform: rotate(-6deg)
 }
 
-#main > .posts > article:first-of-type:before {
-    margin-left: auto;
-    margin-bottom: -220px;
-    margin-top: 160px;
-    background-color: var(--fg-color);
-    color: var(--bg-color);
-}
-
+/*
 #main > .posts > a > h1 , #main > .portfolio > h1 {
     margin-bottom: -6px;
     margin-top: 11px
 }
-
-#main > .portfolio > article:first-of-type:before {
+*/
+#main > .posts > article:first-of-type:before , #main > .portfolio > article:first-of-type:before {
     content: "NEW";
     display: flex;
     margin-left: auto;
@@ -452,8 +442,7 @@ body:before {
     width: 100%;
     background-color: var(--bg-color);
     z-index: -1000;
-    height: 67%;
-    /* min-height: 67%; */
+    min-height: 33em;
 }
 
 @media screen and (max-width: 640px) {
@@ -473,8 +462,8 @@ body:before {
     }
 
     body:before {
-        height: 50%;
-        /*         min-height: 33%; */
+        min-height: 20em;
+        /* min-height: 33%; */
         /*         padding-top: 40% */
     }
 

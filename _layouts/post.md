@@ -4,6 +4,8 @@ layout: default
 
 <article class="post {{ page.tag }}">
   <h1>{{ page.title }}</h1>
+  
+  <div class="tag">{{ page.tag }}</div>
 
   <div class="entry">
     {{ content }}
