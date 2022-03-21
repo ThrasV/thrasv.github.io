@@ -49,7 +49,8 @@
         <footer class="footer">
           Thrasos Varnava 2021
           <a href="https://www.instagram.com/thrasv/">Instagram</a>
-          <a href="https://www.behance.net/Thrasos">Bēhance</a>            
+          <a href="https://www.behance.net/Thrasos">Bēhance</a>
+          <a href="https://www.buymeacoffee.com/thrasv">Buy Me a Coffee</a>
         </footer>
       </div>
     </div>
